@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './pages/Layout'
+import Home from './pages/Home'
+import About from './pages/About'
 
-function App() {
+export default function App() {
     return(
-        <div className="bg-slate-800">
-            {Component}
-        </div>
-    )
+    <StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<Layout  />}>
+                    <Route index element={<Home />} />
+                    <Route path='about' element={<About />} />
+                    {/* <Route path='*' element={<NoPage/>} /> */}
+                </Route>  
+            </Routes>
+        </BrowserRouter>
+    </StrictMode>
+    );
 }
-const Component = <h1 className="text-center font-bold text-black">lol</h1>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
