@@ -22,11 +22,12 @@ Site Components
     display: flex;
     width: 100%;
     background-color: white;
-    height: 25rem;
+    height: 50rem;
     border-width: 10px;
     border-color: black;
     border-style: solid;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 /*
@@ -37,7 +38,7 @@ Items
     border-width: 1px;
     border-color: black;
     border-style: solid;
-    height: auto;
+    height: 20rem;
 }
 
 .image{
@@ -60,4 +61,31 @@ Predefined Styles
 .medium-img{
     width: 512px;
     height: 256px;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    /* Your styles here */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Your styles here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Your styles here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Your styles here */
+}
+
+/* Larger screens (1600px and up) */
+@media (min-width: 1600px) {
+    /* Your styles here */
 }

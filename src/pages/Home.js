@@ -15,7 +15,14 @@ export default function Home() {
                 titleSize='medium-title-text' 
                 description={true} 
                 descriptionSize='medium-description-text'/>
+                <Item 
+                imgSize='medium-img' 
+                title={true} 
+                titleSize='medium-title-text' 
+                description={true} 
+                descriptionSize='medium-description-text'/>
             </div>
+
         </>
     )
 }
