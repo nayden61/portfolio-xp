@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Site Components
+*/
+
+.banner {
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 25rem;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+
+/*
+Items
+*/
+
+.item{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    height: auto;
+}
+
+.image{
+    background-color: rgb(88, 88, 88);
+    border-radius: 5px;
+}
+
+/*
+Predefined Styles
+*/
+
+.medium-title-text{
+    font-size: 2rem;
+}
+
+.medium-description-text{
+    font-size: 1rem;
+}
+
+.medium-img{
+    width: 512px;
+    height: 256px;
+}

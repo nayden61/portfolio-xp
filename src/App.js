@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { StrictMode } from 'react'
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
@@ -8,14 +8,16 @@ import Something from './pages/Something'
 export default function App(){
     return(
         <>
-            <Router>
-                <Navbar />
-                <Routes>
-                    <Route path="/" element=<Home /> />
-                    <Route path="/about" element=<About /> />
-                    <Route path="/something" element=<Something /> />
-                </Routes>
-            </Router>
+            <StrictMode>
+                <Router>
+                    <Navbar />
+                    <Routes>
+                        <Route path="/" element=<Home /> />
+                        <Route path="/about" element=<About /> />
+                        <Route path="/something" element=<Something /> />
+                    </Routes>
+                </Router>
+            </StrictMode>
         </>
     );
 }
