@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/reactTesting/static/css/main.8a8ac88b.css",
-    "main.js": "/reactTesting/static/js/main.12a0cf4b.js",
+    "main.css": "/reactTesting/static/css/main.ab63da95.css",
+    "main.js": "/reactTesting/static/js/main.0c0b0e17.js",
+    "static/media/WindowsXPBG.jpg": "/reactTesting/static/media/WindowsXPBG.2e53bfece549831c3e63.jpg",
+    "static/media/MyComputer.png": "/reactTesting/static/media/MyComputer.c594c0be26f379aa824f.png",
+    "static/media/Recycle Bin (empty).png": "/reactTesting/static/media/Recycle Bin (empty).f67a85c53f54f8da0860.png",
+    "static/media/Internet Explorer 6.png": "/reactTesting/static/media/Internet Explorer 6.778ac25e85e38c21b614.png",
+    "static/media/Logout.png": "/reactTesting/static/media/Logout.60f5154fcaf89a20c50e.png",
+    "static/media/Power.png": "/reactTesting/static/media/Power.757508409eb7610afd9b.png",
+    "static/media/Generic Text Document.png": "/reactTesting/static/media/Generic Text Document.73b26632151024ac8351.png",
     "index.html": "/reactTesting/index.html",
-    "main.8a8ac88b.css.map": "/reactTesting/static/css/main.8a8ac88b.css.map",
-    "main.12a0cf4b.js.map": "/reactTesting/static/js/main.12a0cf4b.js.map"
+    "main.ab63da95.css.map": "/reactTesting/static/css/main.ab63da95.css.map",
+    "main.0c0b0e17.js.map": "/reactTesting/static/js/main.0c0b0e17.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a8ac88b.css",
-    "static/js/main.12a0cf4b.js"
+    "static/css/main.ab63da95.css",
+    "static/js/main.0c0b0e17.js"
   ]
 }
